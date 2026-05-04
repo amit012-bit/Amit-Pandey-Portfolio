@@ -1,0 +1,10 @@
+{
+  "name": "my-claude-code",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev --prefix portfolio",
+    "dev": "npm run dev --prefix portfolio",
+    "build": "npm run build --prefix portfolio",
+    "preview": "npm run preview --prefix portfolio"
+  }
+}

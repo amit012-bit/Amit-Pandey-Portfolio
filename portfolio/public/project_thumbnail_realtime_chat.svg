@@ -1,0 +1,106 @@
+<svg width="100%" viewBox="0 0 730 410" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Realtime Chat Application project thumbnail</title>
+  <desc>Dark themed thumbnail for WebSockets-powered room-based chat application</desc>
+
+  <rect width="680" height="400" fill="#0a0a0f" rx="12"/>
+  <defs>
+    <pattern id="dots5" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="680" height="400" fill="url(#dots5)" rx="12"/>
+
+  <rect x="0" y="0" width="680" height="3" fill="#22d3ee" rx="2"/>
+  <ellipse cx="520" cy="280" rx="220" ry="160" fill="#22d3ee" opacity="0.04"/>
+
+  <rect x="40" y="36" width="90" height="26" fill="none" stroke="#22d3ee" stroke-width="1" rx="4"/>
+  <text x="85" y="53" text-anchor="middle" font-family="monospace" font-size="11" fill="#22d3ee" font-weight="600" letter-spacing="1">REALTIME</text>
+
+  <text x="40" y="115" font-family="'Arial Black', sans-serif" font-size="38" fill="#ffffff" font-weight="900">Realtime Chat</text>
+  <text x="40" y="160" font-family="'Arial Black', sans-serif" font-size="38" fill="#ffffff" font-weight="900">Application</text>
+
+  <text x="40" y="195" font-family="monospace" font-size="13" fill="#6b7280">Node.js · Socket.io · WebSockets</text>
+
+  <line x1="40" y1="218" x2="640" y2="218" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <rect x="40" y="234" width="130" height="64" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.1" rx="8"/>
+  <text x="105" y="257" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="20" fill="#22d3ee" font-weight="900">Rooms</text>
+  <text x="105" y="275" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">Scoped message</text>
+  <text x="105" y="288" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">broadcasting</text>
+
+  <rect x="186" y="234" width="130" height="64" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.1" rx="8"/>
+  <text x="251" y="257" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="20" fill="#22d3ee" font-weight="900">Live</text>
+  <text x="251" y="275" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">Presence tracking</text>
+  <text x="251" y="288" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">join/leave events</text>
+
+  <rect x="332" y="234" width="130" height="64" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.1" rx="8"/>
+  <text x="397" y="257" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="20" fill="#22d3ee" font-weight="900">2-way</text>
+  <text x="397" y="275" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">Bidirectional</text>
+  <text x="397" y="288" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">WebSocket conn.</text>
+
+  <!-- Right panel: chat interface -->
+  <rect x="460" y="36" width="184" height="262" fill="#0d0d14" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.12" rx="8"/>
+
+  <!-- Chat header -->
+  <rect x="460" y="36" width="184" height="28" fill="#111118" rx="8"/>
+  <rect x="460" y="52" width="184" height="12" fill="#111118"/>
+  <!-- Online dot -->
+  <circle cx="476" cy="50" r="5" fill="#22d3ee" fill-opacity="0.8"/>
+  <rect x="486" y="46" width="52" height="6" fill="#ffffff" fill-opacity="0.2" rx="3"/>
+  <!-- Users count -->
+  <rect x="596" y="44" width="36" height="10" fill="#22d3ee" fill-opacity="0.15" rx="5"/>
+  <text x="614" y="52" text-anchor="middle" font-family="monospace" font-size="7" fill="#22d3ee">3 online</text>
+
+  <!-- Chat bubbles: incoming (left) -->
+  <rect x="470" y="74" width="90" height="18" fill="#1a1a28" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.08" rx="9"/>
+  <rect x="470" y="74" width="9" height="9" fill="#1a1a28"/>
+  <circle cx="470" cy="70" r="6" fill="#22d3ee" fill-opacity="0.3"/>
+  <rect x="482" y="79" width="60" height="5" fill="#ffffff" fill-opacity="0.18" rx="2"/>
+
+  <!-- Outgoing (right) -->
+  <rect x="528" y="100" width="96" height="18" fill="#22d3ee" fill-opacity="0.15" stroke="#22d3ee" stroke-width="0.5" stroke-opacity="0.3" rx="9"/>
+  <rect x="615" y="109" width="9" height="9" fill="#22d3ee" fill-opacity="0.15"/>
+  <rect x="533" y="105" width="76" height="5" fill="#22d3ee" fill-opacity="0.4" rx="2"/>
+
+  <!-- Incoming -->
+  <rect x="470" y="126" width="80" height="18" fill="#1a1a28" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.08" rx="9"/>
+  <rect x="470" y="126" width="9" height="9" fill="#1a1a28"/>
+  <circle cx="470" cy="122" r="6" fill="#a78bfa" fill-opacity="0.3"/>
+  <rect x="482" y="131" width="50" height="5" fill="#ffffff" fill-opacity="0.18" rx="2"/>
+
+  <!-- Outgoing -->
+  <rect x="538" y="152" width="86" height="18" fill="#22d3ee" fill-opacity="0.15" stroke="#22d3ee" stroke-width="0.5" stroke-opacity="0.3" rx="9"/>
+  <rect x="615" y="161" width="9" height="9" fill="#22d3ee" fill-opacity="0.15"/>
+  <rect x="543" y="157" width="66" height="5" fill="#22d3ee" fill-opacity="0.4" rx="2"/>
+
+  <!-- Incoming -->
+  <rect x="470" y="178" width="100" height="18" fill="#1a1a28" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.08" rx="9"/>
+  <rect x="470" y="178" width="9" height="9" fill="#1a1a28"/>
+  <circle cx="470" cy="174" r="6" fill="#fbbf24" fill-opacity="0.3"/>
+  <rect x="482" y="183" width="70" height="5" fill="#ffffff" fill-opacity="0.18" rx="2"/>
+
+  <!-- Outgoing -->
+  <rect x="528" y="204" width="96" height="18" fill="#22d3ee" fill-opacity="0.15" stroke="#22d3ee" stroke-width="0.5" stroke-opacity="0.3" rx="9"/>
+  <rect x="615" y="213" width="9" height="9" fill="#22d3ee" fill-opacity="0.15"/>
+  <rect x="533" y="209" width="54" height="5" fill="#22d3ee" fill-opacity="0.4" rx="2"/>
+
+  <!-- Input field -->
+  <rect x="468" y="272" width="148" height="18" fill="#161620" stroke="#22d3ee" stroke-width="0.5" stroke-opacity="0.3" rx="9"/>
+  <rect x="476" y="277" width="80" height="5" fill="#ffffff" fill-opacity="0.07" rx="2"/>
+  <circle cx="606" cy="281" r="6" fill="#22d3ee" fill-opacity="0.4"/>
+
+  <!-- Tech pills -->
+  <rect x="40" y="326" width="72" height="22" fill="#22d3ee" fill-opacity="0.1" stroke="#22d3ee" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
+  <text x="76" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#22d3ee">Socket.io</text>
+
+  <rect x="122" y="326" width="66" height="22" fill="#34d399" fill-opacity="0.1" stroke="#34d399" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
+  <text x="155" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#34d399">Node.js</text>
+
+  <rect x="198" y="326" width="88" height="22" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
+  <text x="242" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#a78bfa">WebSockets</text>
+
+  <rect x="296" y="326" width="66" height="22" fill="#fbbf24" fill-opacity="0.1" stroke="#fbbf24" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
+  <text x="329" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#fbbf24">JavaScript</text>
+
+  <text x="40" y="382" font-family="monospace" font-size="12" fill="#ffffff" opacity="0.5">view project →</text>
+</svg>
