@@ -1,0 +1,33 @@
+<svg width="100%" viewBox="0 0 730 410" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Android permission scanner project thumbnail</title>
+  <desc>Dark mobile privacy thumbnail showing app permission scanning for camera and microphone access</desc>
+  <rect width="680" height="400" fill="#0a0a0f" rx="12"/>
+  <defs>
+    <pattern id="androidDots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="680" height="400" fill="url(#androidDots)" rx="12"/>
+  <rect x="0" y="0" width="680" height="3" fill="#ff5a00" rx="2"/>
+  <text x="40" y="55" font-family="monospace" font-size="11" fill="#ff5a00" letter-spacing="2">MOBILE PRIVACY</text>
+  <text x="40" y="118" font-family="'Arial Black', sans-serif" font-size="38" fill="#ffffff" font-weight="900">Permission Scanner</text>
+  <text x="40" y="150" font-family="monospace" font-size="13" fill="#9ca3af">Java / Android Studio / Camera + Mic access</text>
+  <rect x="70" y="202" width="138" height="76" fill="#ffffff" fill-opacity="0.04" stroke="#ff5a00" stroke-opacity="0.35" rx="12"/>
+  <circle cx="112" cy="240" r="18" fill="#ff5a00" fill-opacity="0.14" stroke="#ff5a00" stroke-opacity="0.5"/>
+  <rect x="140" y="226" width="44" height="8" fill="#ffffff" fill-opacity="0.16" rx="4"/>
+  <rect x="140" y="248" width="34" height="8" fill="#ff5a00" fill-opacity="0.28" rx="4"/>
+  <rect x="230" y="202" width="138" height="76" fill="#ffffff" fill-opacity="0.04" stroke="#ff5a00" stroke-opacity="0.35" rx="12"/>
+  <circle cx="272" cy="240" r="18" fill="#ff5a00" fill-opacity="0.14" stroke="#ff5a00" stroke-opacity="0.5"/>
+  <rect x="300" y="226" width="44" height="8" fill="#ffffff" fill-opacity="0.16" rx="4"/>
+  <rect x="300" y="248" width="34" height="8" fill="#ff5a00" fill-opacity="0.28" rx="4"/>
+  <rect x="454" y="62" width="132" height="250" fill="#111118" stroke="#ffffff" stroke-opacity="0.16" rx="24"/>
+  <rect x="468" y="82" width="104" height="210" fill="#0a0a0f" stroke="#ffffff" stroke-opacity="0.08" rx="14"/>
+  <text x="520" y="112" text-anchor="middle" font-family="monospace" font-size="10" fill="#ff5a00">SCAN</text>
+  <circle cx="520" cy="170" r="40" fill="#ff5a00" fill-opacity="0.1" stroke="#ff5a00" stroke-opacity="0.45"/>
+  <path d="M498 170 H542 M520 148 V192" stroke="#ff5a00" stroke-width="2" opacity="0.75"/>
+  <rect x="488" y="230" width="64" height="10" fill="#ffffff" fill-opacity="0.14" rx="5"/>
+  <rect x="500" y="252" width="40" height="10" fill="#ff5a00" fill-opacity="0.25" rx="5"/>
+  <rect x="70" y="318" width="300" height="34" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1" rx="8"/>
+  <text x="90" y="340" font-family="monospace" font-size="11" fill="#9ca3af">Detect sensitive app permissions</text>
+  <text x="40" y="378" font-family="monospace" font-size="12" fill="#ffffff" opacity="0.55">Android privacy tool on GitHub</text>
+</svg>

@@ -19,3 +19,15 @@ Thumbs.db
 
 # Claude Code — machine-local
 .claude/settings.local.json
+
+.cursor/
+.cursor/settings.local.json
+.cursor/cursor.code-workspace
+.cursor/launch.json
+.cursor/settings.json
+
+.skills
+
+# Local asset backups / archives
+_archive/
+.svg-color-backup/

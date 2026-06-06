@@ -12,9 +12,14 @@ export default function Contact() {
           <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
         ))}
       </p>
-      <a className="solid-btn contact-cta" href={LINKS.mailto}>
-        {CONTACT.cta}
-      </a>
+      <div className="contact-actions">
+        <a className="solid-btn contact-cta" href={LINKS.mailto}>
+          {CONTACT.cta}
+        </a>
+        <a className="outline-btn contact-cta" href={LINKS.upwork} target="_blank" rel="noreferrer">
+          {CONTACT.upworkCta}
+        </a>
+      </div>
       <p className="contact-email-line">
         <a href={LINKS.mailto}>{LINKS.email}</a>
         <span className="contact-sep"> · </span>

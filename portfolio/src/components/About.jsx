@@ -43,7 +43,7 @@ export default function About() {
       </div>
 
       <aside className="panel about-aside">
-        <img src={`${base}${PERSONAL.aboutImage}`} alt={PERSONAL.name} />
+        <img src={`${base}${encodeURI(PERSONAL.aboutImage)}`} alt={PERSONAL.name} />
         <div className="about-status-badge">
           <div className="about-status-left">
             <span className="about-status-label">{ABOUT.statusLabel}</span>

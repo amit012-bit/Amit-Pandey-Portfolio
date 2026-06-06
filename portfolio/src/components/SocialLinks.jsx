@@ -11,6 +11,9 @@ export default function SocialLinks({ className = '', variant = 'row' }) {
       <a href={LINKS.github} {...ext}>
         GitHub
       </a>
+      <a href={LINKS.upwork} {...ext}>
+        Upwork
+      </a>
       <a href={LINKS.mailto}>
         Email
       </a>

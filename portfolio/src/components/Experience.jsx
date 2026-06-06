@@ -13,7 +13,7 @@ export default function Experience() {
           <div className="experience-visual panel">
             <img
               className="experience-portrait"
-              src={`${base}${PERSONAL.experienceImage}`}
+              src={`${base}${encodeURI(PERSONAL.experienceImage)}`}
               alt={PERSONAL.name}
             />
           </div>
@@ -25,7 +25,13 @@ export default function Experience() {
                 <div>
                   <h3>{exp.role}</h3>
                   {exp.subtitle && <p className="exp-subtitle">{exp.subtitle}</p>}
-                  <p className="card-kicker">{exp.company}</p>
+                  <p className="card-kicker">
+                    {exp.companyUrl ? (
+                      <a href={exp.companyUrl} target="_blank" rel="noreferrer">{exp.company}</a>
+                    ) : (
+                      exp.company
+                    )}
+                  </p>
                   <div className="timeline-meta">
                     <span className="timeline-period">{exp.period}</span>
                     <span className="timeline-dot">·</span>

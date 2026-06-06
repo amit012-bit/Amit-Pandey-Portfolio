@@ -10,11 +10,11 @@
   </defs>
   <rect width="680" height="400" fill="url(#dots4)" rx="12"/>
 
-  <rect x="0" y="0" width="680" height="3" fill="#f59e0b" rx="2"/>
-  <ellipse cx="160" cy="200" rx="200" ry="180" fill="#f59e0b" opacity="0.04"/>
+  <rect x="0" y="0" width="680" height="3" fill="#ff5a00" rx="2"/>
+  <ellipse cx="160" cy="200" rx="200" ry="180" fill="#ff5a00" opacity="0.04"/>
 
-  <rect x="40" y="36" width="80" height="26" fill="none" stroke="#f59e0b" stroke-width="1" rx="4"/>
-  <text x="80" y="53" text-anchor="middle" font-family="monospace" font-size="11" fill="#f59e0b" font-weight="600" letter-spacing="1">WEB APP</text>
+  <rect x="40" y="36" width="80" height="26" fill="none" stroke="#ff5a00" stroke-width="1" rx="4"/>
+  <text x="80" y="53" text-anchor="middle" font-family="monospace" font-size="11" fill="#ff5a00" font-weight="600" letter-spacing="1">WEB APP</text>
 
   <text x="40" y="115" font-family="'Arial Black', sans-serif" font-size="38" fill="#ffffff" font-weight="900">LinkStack</text>
   <text x="40" y="160" font-family="'Arial Black', sans-serif" font-size="38" fill="#ffffff" font-weight="900">Social App</text>
@@ -24,17 +24,17 @@
   <line x1="40" y1="218" x2="640" y2="218" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
 
   <rect x="40" y="234" width="130" height="64" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.1" rx="8"/>
-  <text x="105" y="257" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="22" fill="#f59e0b" font-weight="900">CRUD</text>
+  <text x="105" y="257" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="22" fill="#ff5a00" font-weight="900">CRUD</text>
   <text x="105" y="275" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">Full create, edit</text>
   <text x="105" y="288" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">delete, publish</text>
 
   <rect x="186" y="234" width="130" height="64" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.1" rx="8"/>
-  <text x="251" y="257" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="22" fill="#f59e0b" font-weight="900">SSR</text>
+  <text x="251" y="257" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="22" fill="#ff5a00" font-weight="900">SSR</text>
   <text x="251" y="275" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">Server-side</text>
   <text x="251" y="288" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">rendering</text>
 
   <rect x="332" y="234" width="130" height="64" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.1" rx="8"/>
-  <text x="397" y="257" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="22" fill="#f59e0b" font-weight="900">Auth</text>
+  <text x="397" y="257" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="22" fill="#ff5a00" font-weight="900">Auth</text>
   <text x="397" y="275" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">Session-based</text>
   <text x="397" y="288" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">protected routes</text>
 
@@ -42,49 +42,49 @@
   <rect x="460" y="36" width="184" height="262" fill="#0d0d14" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.12" rx="8"/>
 
   <!-- Profile avatar -->
-  <circle cx="552" cy="76" r="22" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
-  <circle cx="552" cy="76" r="12" fill="#f59e0b" fill-opacity="0.35"/>
+  <circle cx="552" cy="76" r="22" fill="#ff5a00" fill-opacity="0.15" stroke="#ff5a00" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="552" cy="76" r="12" fill="#ff5a00" fill-opacity="0.35"/>
   <!-- Name placeholder -->
   <rect x="522" y="106" width="60" height="7" fill="#ffffff" fill-opacity="0.15" rx="3"/>
   <rect x="533" y="119" width="38" height="5" fill="#ffffff" fill-opacity="0.08" rx="2"/>
 
   <!-- Link cards -->
-  <rect x="476" y="133" width="152" height="21" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.5" rx="4"/>
-  <rect x="476" y="133" width="4" height="21" fill="#f59e0b" rx="2"/>
+  <rect x="476" y="133" width="152" height="21" fill="#ff5a00" fill-opacity="0.1" stroke="#ff5a00" stroke-width="0.5" stroke-opacity="0.5" rx="4"/>
+  <rect x="476" y="133" width="4" height="21" fill="#ff5a00" rx="2"/>
   <rect x="488" y="139" width="76" height="5" fill="#ffffff" fill-opacity="0.3" rx="2"/>
-  <rect x="617" y="138" width="9" height="9" fill="#f59e0b" fill-opacity="0.5" rx="2"/>
+  <rect x="617" y="138" width="9" height="9" fill="#ff5a00" fill-opacity="0.5" rx="2"/>
 
   <rect x="476" y="162" width="152" height="21" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.08" rx="4"/>
-  <rect x="476" y="162" width="4" height="21" fill="#a78bfa" rx="2"/>
+  <rect x="476" y="162" width="4" height="21" fill="#ff5a00" rx="2"/>
   <rect x="488" y="168" width="58" height="5" fill="#ffffff" fill-opacity="0.2" rx="2"/>
-  <rect x="617" y="167" width="9" height="9" fill="#a78bfa" fill-opacity="0.4" rx="2"/>
+  <rect x="617" y="167" width="9" height="9" fill="#ff5a00" fill-opacity="0.4" rx="2"/>
 
   <rect x="476" y="191" width="152" height="21" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.08" rx="4"/>
-  <rect x="476" y="191" width="4" height="21" fill="#34d399" rx="2"/>
+  <rect x="476" y="191" width="4" height="21" fill="#ff5a00" rx="2"/>
   <rect x="488" y="197" width="68" height="5" fill="#ffffff" fill-opacity="0.2" rx="2"/>
-  <rect x="617" y="196" width="9" height="9" fill="#34d399" fill-opacity="0.4" rx="2"/>
+  <rect x="617" y="196" width="9" height="9" fill="#ff5a00" fill-opacity="0.4" rx="2"/>
 
   <rect x="476" y="220" width="152" height="21" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.08" rx="4"/>
-  <rect x="476" y="220" width="4" height="21" fill="#00d4ff" rx="2"/>
+  <rect x="476" y="220" width="4" height="21" fill="#ff5a00" rx="2"/>
   <rect x="488" y="226" width="48" height="5" fill="#ffffff" fill-opacity="0.2" rx="2"/>
-  <rect x="617" y="225" width="9" height="9" fill="#00d4ff" fill-opacity="0.4" rx="2"/>
+  <rect x="617" y="225" width="9" height="9" fill="#ff5a00" fill-opacity="0.4" rx="2"/>
 
   <rect x="476" y="249" width="152" height="21" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.08" rx="4"/>
-  <rect x="476" y="249" width="4" height="21" fill="#f59e0b" fill-opacity="0.4" rx="2"/>
+  <rect x="476" y="249" width="4" height="21" fill="#ff5a00" fill-opacity="0.4" rx="2"/>
   <rect x="488" y="255" width="62" height="5" fill="#ffffff" fill-opacity="0.12" rx="2"/>
 
   <!-- Tech pills -->
-  <rect x="40" y="326" width="80" height="22" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
-  <text x="80" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#f59e0b">MongoDB</text>
+  <rect x="40" y="326" width="80" height="22" fill="#ff5a00" fill-opacity="0.1" stroke="#ff5a00" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
+  <text x="80" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#ff5a00">MongoDB</text>
 
-  <rect x="130" y="326" width="66" height="22" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
-  <text x="163" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#a78bfa">Express</text>
+  <rect x="130" y="326" width="66" height="22" fill="#ff5a00" fill-opacity="0.1" stroke="#ff5a00" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
+  <text x="163" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#ff5a00">Express</text>
 
-  <rect x="206" y="326" width="66" height="22" fill="#34d399" fill-opacity="0.1" stroke="#34d399" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
-  <text x="239" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#34d399">Node.js</text>
+  <rect x="206" y="326" width="66" height="22" fill="#ff5a00" fill-opacity="0.1" stroke="#ff5a00" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
+  <text x="239" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#ff5a00">Node.js</text>
 
-  <rect x="282" y="326" width="42" height="22" fill="#00d4ff" fill-opacity="0.1" stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
-  <text x="303" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#00d4ff">EJS</text>
+  <rect x="282" y="326" width="42" height="22" fill="#ff5a00" fill-opacity="0.1" stroke="#ff5a00" stroke-width="0.5" stroke-opacity="0.4" rx="11"/>
+  <text x="303" y="341" text-anchor="middle" font-family="monospace" font-size="10" fill="#ff5a00">EJS</text>
 
   <text x="40" y="382" font-family="monospace" font-size="12" fill="#ffffff" opacity="0.5">view project →</text>
 </svg>

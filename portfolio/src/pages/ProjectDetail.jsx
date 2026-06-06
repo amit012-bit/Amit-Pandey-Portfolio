@@ -17,6 +17,64 @@ export default function ProjectDetail() {
   const projectIndex = ALL_PROJECTS.findIndex((p) => p.id === projectId)
   const projectNum = String(projectIndex + 1).padStart(2, '0')
   const related = ALL_PROJECTS.filter((p) => p.id !== project.id).slice(0, 3)
+  const projectLinks = [
+    project.liveUrl && { href: project.liveUrl, label: 'LIVE DEMO', variant: 'solid-btn' },
+    project.sourceUrl && { href: project.sourceUrl, label: 'SOURCE CODE', variant: 'outline-btn' },
+  ].filter(Boolean)
+
+  const sections = [
+    detail.problem && {
+      title: 'The Problem',
+      body: <p className="pd-overview">{detail.problem}</p>,
+    },
+    detail.overview && {
+      title: 'Overview',
+      body: <p className="pd-overview">{detail.overview}</p>,
+    },
+    detail.highlights?.length > 0 && {
+      title: 'What I Built',
+      body: (
+        <ol className="pd-highlights">
+          {detail.highlights.map((line, i) => (
+            <li key={i}>
+              <span className="pd-highlight-num">{String(i + 1).padStart(2, '0')}</span>
+              <span className="pd-highlight-text">{line}</span>
+            </li>
+          ))}
+        </ol>
+      ),
+    },
+    detail.decisions?.length > 0 && {
+      title: 'Decisions & Tradeoffs',
+      body: (
+        <ul className="pd-decisions">
+          {detail.decisions.map((line, i) => (
+            <li key={i} className="pd-decision">
+              <span className="pd-decision-marker" aria-hidden="true" />
+              <span className="pd-decision-text">{line}</span>
+            </li>
+          ))}
+        </ul>
+      ),
+    },
+    detail.results?.length > 0 && {
+      title: 'Impact',
+      body: (
+        <div className="pd-results">
+          {detail.results.map((r) => (
+            <div key={r.label} className="pd-result">
+              <span className="pd-result-value">{r.value}</span>
+              <span className="pd-result-label">{r.label}</span>
+            </div>
+          ))}
+        </div>
+      ),
+    },
+    detail.reflection && {
+      title: "What I'd Do Differently",
+      body: <p className="pd-overview">{detail.reflection}</p>,
+    },
+  ].filter(Boolean)
 
   return (
     <div className="site-shell">
@@ -97,32 +155,15 @@ export default function ProjectDetail() {
           <div className="pd-body-grid">
 
             <div className="pd-body-main">
-
-              {/* Overview */}
-              <section className="pd-section">
-                <h2 className="pd-section-title">
-                  <span className="pd-section-num">01</span>
-                  Overview
-                </h2>
-                <p className="pd-overview">{detail.overview}</p>
-              </section>
-
-              {/* Highlights */}
-              <section className="pd-section">
-                <h2 className="pd-section-title">
-                  <span className="pd-section-num">02</span>
-                  Highlights
-                </h2>
-                <ol className="pd-highlights">
-                  {detail.highlights.map((line, i) => (
-                    <li key={i}>
-                      <span className="pd-highlight-num">{String(i + 1).padStart(2, '0')}</span>
-                      <span className="pd-highlight-text">{line}</span>
-                    </li>
-                  ))}
-                </ol>
-              </section>
-
+              {sections.map((section, i) => (
+                <section className="pd-section" key={section.title}>
+                  <h2 className="pd-section-title">
+                    <span className="pd-section-num">{String(i + 1).padStart(2, '0')}</span>
+                    {section.title}
+                  </h2>
+                  {section.body}
+                </section>
+              ))}
             </div>
 
             {/* Sticky aside */}
@@ -151,6 +192,11 @@ export default function ProjectDetail() {
                 </div>
               )}
               <div className="pd-aside-cta">
+                {projectLinks.map((link) => (
+                  <a key={link.label} className={`${link.variant} pd-aside-btn`} href={link.href} target="_blank" rel="noreferrer">
+                    {link.label}
+                  </a>
+                ))}
                 <a className="solid-btn pd-aside-btn" href={resumePdfHref(base)} target="_blank" rel="noreferrer">
                   RESUME PDF
                 </a>

@@ -1,0 +1,36 @@
+<svg width="100%" viewBox="0 0 730 410" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Crelio dashboard webhook project thumbnail</title>
+  <desc>Dark dashboard thumbnail with webhook flow, charts, and patient status cards</desc>
+  <rect width="680" height="400" fill="#0a0a0f" rx="12"/>
+  <defs>
+    <pattern id="crelioDots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="680" height="400" fill="url(#crelioDots)" rx="12"/>
+  <rect x="0" y="0" width="680" height="3" fill="#ff5a00" rx="2"/>
+  <text x="40" y="55" font-family="monospace" font-size="11" fill="#ff5a00" letter-spacing="2">WEBHOOK DASHBOARD</text>
+  <text x="40" y="118" font-family="'Arial Black', sans-serif" font-size="39" fill="#ffffff" font-weight="900">Crelio Dashboard</text>
+  <text x="40" y="150" font-family="monospace" font-size="13" fill="#9ca3af">Next.js / Express / MongoDB / Recharts</text>
+  <rect x="40" y="190" width="128" height="74" fill="#ffffff" fill-opacity="0.04" stroke="#ff5a00" stroke-opacity="0.35" rx="10"/>
+  <text x="64" y="222" font-family="'Arial Black', sans-serif" font-size="26" fill="#ff5a00">128</text>
+  <text x="64" y="244" font-family="monospace" font-size="10" fill="#9ca3af">patients today</text>
+  <rect x="184" y="190" width="128" height="74" fill="#ffffff" fill-opacity="0.04" stroke="#ff5a00" stroke-opacity="0.35" rx="10"/>
+  <text x="208" y="222" font-family="'Arial Black', sans-serif" font-size="26" fill="#ff5a00">94%</text>
+  <text x="208" y="244" font-family="monospace" font-size="10" fill="#9ca3af">success rate</text>
+  <rect x="328" y="190" width="128" height="74" fill="#ffffff" fill-opacity="0.04" stroke="#ff5a00" stroke-opacity="0.35" rx="10"/>
+  <text x="352" y="222" font-family="'Arial Black', sans-serif" font-size="26" fill="#ff5a00">32</text>
+  <text x="352" y="244" font-family="monospace" font-size="10" fill="#9ca3af">reports</text>
+  <rect x="40" y="292" width="416" height="58" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1" rx="10"/>
+  <path d="M66 328 L112 310 L160 318 L208 298 L256 306 L304 286 L352 300 L424 276" fill="none" stroke="#ff5a00" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="424" cy="276" r="5" fill="#ff5a00"/>
+  <rect x="492" y="74" width="130" height="248" fill="#111118" stroke="#ffffff" stroke-opacity="0.12" rx="14"/>
+  <text x="557" y="106" text-anchor="middle" font-family="monospace" font-size="10" fill="#ff5a00">POST /webhook</text>
+  <rect x="512" y="132" width="90" height="12" fill="#ffffff" fill-opacity="0.14" rx="6"/>
+  <rect x="512" y="158" width="70" height="12" fill="#ff5a00" fill-opacity="0.25" rx="6"/>
+  <rect x="512" y="184" width="84" height="12" fill="#ffffff" fill-opacity="0.12" rx="6"/>
+  <path d="M557 224 L557 262" stroke="#ff5a00" stroke-width="2" stroke-dasharray="5 5"/>
+  <rect x="510" y="268" width="94" height="30" fill="#ff5a00" fill-opacity="0.12" stroke="#ff5a00" stroke-opacity="0.35" rx="8"/>
+  <text x="557" y="288" text-anchor="middle" font-family="monospace" font-size="10" fill="#ff5a00">MongoDB</text>
+  <text x="40" y="378" font-family="monospace" font-size="12" fill="#ffffff" opacity="0.55">live dashboard + GitHub source</text>
+</svg>

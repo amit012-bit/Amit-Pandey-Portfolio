@@ -45,7 +45,7 @@ export default function Hero() {
       <div className="hero-art">
         <img
           className="hero-character"
-          src={`${base}${PERSONAL.heroImage}`}
+          src={`${base}${encodeURI(PERSONAL.heroImage)}`}
           alt={PERSONAL.name}
         />
       </div>
