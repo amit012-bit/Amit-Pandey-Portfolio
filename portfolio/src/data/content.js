@@ -188,7 +188,7 @@ export const SKILL_GROUPS = [
 
 export const EXPERIENCE_META = {
   sectionLabel: 'EXPERIENCE',
-  heading: 'Career Journey',
+  heading: 'Experience Shipping AI Systems',
   linkedinCta: 'VIEW FULL PROFILE ON LINKEDIN',
 }
 
@@ -204,17 +204,18 @@ export const EXPERIENCES = [
     challenge:
       'Scale a healthcare AI platform requiring near-human accuracy, enterprise reliability, and aggressive cost control.',
     points: [
-      'Architected the core AI prediction engine using LLM orchestration and agentic workflows — specialty-aware, modular pipelines with fault-tolerant edge-case handling.',
-      'Optimised vector search, batching, caching, and intelligent model routing for maximum throughput and cost efficiency.',
-      'Led AI Platform & Application teams — aligning system reliability with delivery velocity across the full stack.',
-      'Owned technical roadmap strategy and served as client-facing technical lead for US enterprise healthcare clients.',
+      'Own the AI platform end-to-end — LLM orchestration, prompt architecture, Pinecone vector search, and ICD/CPT-focused agentic workflows across multiple specialties.',
+      'Drove inference-pipeline rewrites informed by live production data, improving accuracy while cutting AI costs by 75% and execution time by 50%.',
+      'Designed the EMR automation system eliminating ~90% of manual chart operations across multiple live EMR systems with retries, denial detection, risk scoring, and specialty routing.',
+      'Lead AI Platform & Application teams — setting technical direction, owning the roadmap, and resolving high-priority production issues before they reach clients.',
+      'Serve as primary technical contact for US enterprise healthcare clients across requirement gathering, integration design, and production deployment alignment.',
     ],
     outcomes: [
       '95–97% prediction accuracy across specialties — up from a 60% baseline',
       '50% reduction in execution time',
       '75% operational cost savings',
       '90% reduction in manual chart operations',
-      'Deployment cycles cut from weeks to days',
+      'Primary technical contact for multiple US healthcare accounts',
     ],
   },
   {
@@ -225,17 +226,18 @@ export const EXPERIENCES = [
     company: 'MediCodio Inc.',
     location: 'Bengaluru, Karnataka, India · On-site',
     type: 'Full-time',
-    challenge: 'Build the foundation for a scalable, automation-first AI product from scratch.',
+    challenge: 'Build and repeatedly evolve the foundation for a scalable, automation-first AI product as product requirements and production scale changed.',
     points: [
-      'Built the entire AI-powered SaaS platform using the PERN stack — sole owner of frontend, backend, and database layers.',
-      'Developed secure REST APIs, chart pipelines, coder dashboards, review queues, and audit workflows supporting real healthcare operations.',
-      'Integrated AI engine endpoints for prediction, review, audit, and chart lifecycle management.',
-      'Designed EMR API + RPA integrations — established the platform architecture later scaled across the company.',
+      'Built MediCodio’s application platform through multiple production versions from scratch — each PERN-stack rebuild driven by product evolution and scale requirements.',
+      'Owned frontend, backend, and database layers: REST API design, PostgreSQL schema/indexing, React workflow surfaces, and production integration points.',
+      'Developed core product surfaces used daily by US healthcare clients: coder dashboards, chart review interfaces, queue management, and workflow orchestration.',
+      'Improved application performance by 40% through REST API redesign, PostgreSQL index restructuring, and React state-management overhaul.',
+      'Built and deployed API + RPA integrations across multiple live EMR systems, covering import, validation, prediction, review, audit, and export.',
     ],
     outcomes: [
       '40% performance improvement across APIs and UI',
-      '90% reduction in manual chart operations',
-      'Full platform architecture established from zero',
+      'Multiple production platform versions shipped from zero',
+      'Core workflow surfaces used daily by US healthcare clients',
     ],
   },
   {
