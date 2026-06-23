@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import ProjectDetail from './pages/ProjectDetail'
+import BlogPost from './pages/BlogPost'
 import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/work/:projectId" element={<ProjectDetail />} />
+        <Route path="/blog/:postId" element={<BlogPost />} />
       </Routes>
     </BrowserRouter>
   )

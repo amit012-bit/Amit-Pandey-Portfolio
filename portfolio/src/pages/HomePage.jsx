@@ -9,6 +9,7 @@ import Experience from '../components/Experience'
 import Achievements from '../components/Achievements'
 import Certifications from '../components/Certifications'
 import Marquee from '../components/Marquee'
+import Blog from '../components/Blog'
 import Contact from '../components/Contact'
 
 export default function HomePage() {
@@ -28,6 +29,7 @@ export default function HomePage() {
         <Certifications />
         <Achievements />
         <Marquee />
+        <Blog />
         <Contact />
       </main>
     </div>

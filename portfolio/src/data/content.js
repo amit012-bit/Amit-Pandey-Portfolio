@@ -75,6 +75,7 @@ export const NAVBAR = {
     { href: '/#feed',    label: 'Feed' },
     { href: '/#work',    label: 'Work' },
     { href: '/#about',   label: 'About' },
+    { href: '/#blog',    label: 'Blog' },
     { href: '/#contact', label: 'Contact' },
   ],
   hireCta: 'HIRE ME',
@@ -433,6 +434,108 @@ export const TICKER_ITEMS = [
   'GenAI Systems', 'RPA Automation', 'Claude API', 'HealthTech SaaS',
   'Semantic Retrieval', 'PostgreSQL', 'AI Cost Optimization',
   'Full-Stack', 'LangChain', 'Multi-Agent Systems', 'Technical Leadership',
+]
+
+// ─── Blog ─────────────────────────────────────────────────────────────────────
+
+export const BLOG_META = {
+  sectionLabel: 'WRITING',
+  heading: 'Engineering Notes',
+  subheading:
+    'Deep dives on work I shipped, technical challenges I solved, and lessons from building AI systems in production.',
+  readCta: 'READ POST →',
+  emptyState: {
+    status: 'COMING SOON',
+    title: 'First posts are on the way',
+    description:
+      'I am drafting write-ups on real engineering work — implementation details, tradeoffs, and what I would do differently. Check back soon, or reach out if a topic would be useful to you.',
+    topics: [
+      'Work I shipped',
+      'Technical challenges',
+      'Implementation details',
+      'Case studies',
+      'Engineering insights',
+      'Lessons learned',
+    ],
+  },
+}
+
+/**
+ * Each post: id, title, excerpt, date (ISO), readTime, tags[], coverImage?, featured?, published?
+ * externalUrl? — link out instead of on-site detail page
+ * body: { category, lead, sections[], closingQuestion? }
+ *   section: { id, num, title, blocks[] }
+ *   block: { type: 'text'|'punch'|'pull', text }
+ */
+export const BLOG_POSTS = [
+  {
+    id: 'patch-same-bug-twice',
+    title: 'Who Holds the Architecture?',
+    excerpt:
+      "The bug isn't your problem — your architecture is. Two weeks fixing the same race condition in different costumes, until we stopped syncing actions and started syncing state.",
+    date: '2026-06-23',
+    readTime: '3 min read',
+    tags: ['Architecture', 'Frontend', 'Race Conditions', 'System Design', 'AI Engineering'],
+    featured: true,
+    published: true,
+    body: {
+      category: 'ARCHITECTURE',
+      lead:
+        "If you've patched the same bug twice, the bug isn't your problem. Your architecture is.",
+      sections: [
+        {
+          id: 'the-bug',
+          num: '01',
+          title: 'The Bug',
+          blocks: [
+            { type: 'text', text: 'We spent two weeks fixing the same race condition wearing different costumes.' },
+            { type: 'text', text: 'One screen. Every edit fired its own API call.' },
+            { type: 'text', text: 'Add a row → POST. Delete one → POST. Duplicate, reorder, override — each its own request.' },
+            { type: 'text', text: 'The requests were fast. Speed was never the problem.' },
+            { type: 'punch', text: 'The problem was order.' },
+            { type: 'text', text: "On a flaky network, requests don't arrive in the order they were sent. Duplicate a row, delete it before the \"create\" landed, and the server confidently 404'd a row that didn't exist yet." },
+            { type: 'text', text: 'We patched it. Another race surfaced. Patched. Another.' },
+            { type: 'text', text: 'The screen was syncing actions over the network — and each action assumed an order the network never promised.' },
+            { type: 'pull', text: 'That contract was what was broken. Not the code.' },
+          ],
+        },
+        {
+          id: 'the-reframe',
+          num: '02',
+          title: 'The Reframe',
+          blocks: [
+            { type: 'punch', text: 'The reframe came from Google Docs.' },
+            { type: 'text', text: "It doesn't sync your keystrokes. It syncs the document. You type freely. The whole state autosaves on a debounce." },
+            { type: 'punch', text: 'So we rebuilt it that way.' },
+            { type: 'text', text: 'Every edit applies locally, instantly. The full draft autosaves a second after you stop typing. Duplicate-then-delete? The deleted row never reaches the saved snapshot. Nothing left to race against.' },
+            { type: 'pull', text: "The bug class didn't get fixed. It became structurally impossible." },
+          ],
+        },
+        {
+          id: 'the-architect',
+          num: '03',
+          title: 'The Architect',
+          blocks: [
+            { type: 'text', text: 'AI writes code faster than I do. Better, most days. That stopped being the interesting question a while ago.' },
+            { type: 'punch', text: "The real one: when AI writes the first version, who's holding the architecture?" },
+            { type: 'text', text: "Someone has to look at the working code and ask — is this the right shape? What's load-bearing? What should never have existed?" },
+            { type: 'pull', text: "When you build with AI, you don't get to skip being the architect. You get promoted into it on day one." },
+          ],
+        },
+        {
+          id: 'the-lesson',
+          num: '04',
+          title: 'The Lesson',
+          blocks: [
+            { type: 'punch', text: "If you're patching the same bug twice, stop." },
+            { type: 'text', text: "You're not maintaining the code. You're feeding the architecture that produced it." },
+          ],
+        },
+      ],
+      closingQuestion:
+        "What's a bug class your team made structurally impossible — and what had to be deleted to make it so?",
+    },
+  },
 ]
 
 // ─── Contact ──────────────────────────────────────────────────────────────────

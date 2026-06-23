@@ -4,7 +4,7 @@ const HIGHLIGHT_CERTS = CERTIFICATIONS.filter((c) => c.url)
 
 export default function Marquee() {
   return (
-    <section className="section-wrap section-block" id="blog">
+    <section className="section-wrap section-block" id="highlights">
       <div className="section-title-row">
         <p className="tiny-label">{CERTIFICATIONS_META.highlightsLabel}</p>
         <h2>{CERTIFICATIONS_META.highlightsHeading}</h2>
